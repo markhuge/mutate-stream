@@ -1,0 +1,34 @@
+{
+  "name": "mutate-stream",
+  "version": "0.0.0",
+  "dependencies": {
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "stream-output": "0.0.1",
+    "tape": "^3.5.0"
+  },
+  "description": "Object mutation pipelines for flow control",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/mutate-stream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markhuge/mutate-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "mutate",
+    "controlflow"
+  ],
+  "author": "Mark Wilkerson <mark@segfawlt.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markhuge/mutate-stream/issues"
+  },
+  "homepage": "https://github.com/markhuge/mutate-stream"
+}
